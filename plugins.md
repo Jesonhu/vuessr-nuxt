@@ -4,3 +4,5 @@
 
 1 vue-awesome-swiper
 
+2 vue全局过滤器
+
