@@ -75,10 +75,9 @@ Vue.use(VueAwesomeSwiper);
     }
   }
 </script>
-
-  
-      
 ```
 
+5 注意事项
 
+5.1 swiper-wrapper\(父\)  swiper-slide\(子\) 两者关系固定
 
