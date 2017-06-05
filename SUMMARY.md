@@ -13,4 +13,5 @@
 ## Methods
 
 * [Defining Methods](methods.md)
+* [test](test.md)
 
