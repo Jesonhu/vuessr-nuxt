@@ -2,5 +2,5 @@
 
 第三方组件使用
 
-
+1 vue-awesome-swiper
 
