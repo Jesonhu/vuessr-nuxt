@@ -51,5 +51,12 @@ Object.keys(filters).forEach((key) => {
 
 5 页面使用过滤器 
 
-{{ 123 \| rmb }}  结果为 ¥123
+{{ 123 \| rmb }}  结果为 ¥123`````
+`````
 
+6 疑问?
+6.1 Q: import filters from '~components/filters'; 为什么我要将filters放在components这写目录才不报错误,放在根目录或者~plugins目录下报错
+![](/assets/QQ截图20170605113218.png)
+
+6.2 Q: 这样使用过滤Vue报警告,但是功能不影响
+![](/assets/QQ截图20170605113409.png)
