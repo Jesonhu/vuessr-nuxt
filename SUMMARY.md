@@ -4,6 +4,7 @@
 
 * [ch3-配置](README.md)
   * [dev](docs/ch3/README.md)
+  * [env](docs/ch3/env/README.md)
   * [plugins](docs/ch3/plugin/README.md)
     * [vue-awesome-swiper](docs/ch3/plugin/vue-awesome-swiper.md)
     * [vue全局过滤器](docs/ch3/plugin/filter.md)
