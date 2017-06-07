@@ -24,10 +24,9 @@ import axios from '~plugins/axios'
 axios.get('/api/common.json');
 ```
 ###### 这样使用命令行有警告,但是不影响功能
-![](QQ截图20170605113409.png)
+![](../../../assets/filter_dependency.png)
 
 ##### 问题1
 问题: filter文件夹现在只能放在
 components下,放其他会报错
-![](QQ截图20170605113218.png)
-解决方法: 
+![](../../../assets/filter-error.png) 
