@@ -23,3 +23,4 @@ import axios from '~plugins/axios'
 
 axios.get('/api/common.json');
 ```
+###### 这样使用命令行有警告,但是不影响功能
