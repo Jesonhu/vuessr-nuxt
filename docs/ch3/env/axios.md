@@ -7,7 +7,9 @@ env: {
 }
 ```
 两种方式使用baseUrl的值:
+
 1 process.env-baseUrl
+
 2 context.baseUrl
 ###### plugins/axios.js
 ```js
