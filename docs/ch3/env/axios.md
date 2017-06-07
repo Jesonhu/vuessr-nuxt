@@ -1,6 +1,6 @@
 ## 使用场景: 给axios请求地址配置域以及Nuxt全局域
 
-###### nuxt dev配置(nuxt.config.js) 配置Nuxt全局域
+###### nuxt env配置(nuxt.config.js) 配置Nuxt全局域
 ```js
 env: {
     baseUrl: process.env.BASE_URL || 'http://127.0.0.1:3000'
