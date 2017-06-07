@@ -3,13 +3,12 @@
 ## 使用
 
 * [ch3-配置](README.md)
-  * [dev](dev.md)
-  * [env](env.md)
-  * [plugins](plugins.md)
+  * [dev](docs/ch3/README.md)
+  * [plugins](docs/ch3/plugin/README.md)
     * [vue-awesome-swiper](docs/ch3/plugin/vue-awesome-swiper.md)
     * [vue全局过滤器](docs/ch3/plugin/filter.md)
 
-## Methods
+## Markdown语法
 
 * [Defining Methods](methods.md)
 * [test](/docs/test.md)
