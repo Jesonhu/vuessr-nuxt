@@ -75,11 +75,7 @@ Vue.use(VueAwesomeSwiper);
     }
   }
 </script>
-<<<<<<< HEAD
-
   
-      
-```
 
 ```
 
