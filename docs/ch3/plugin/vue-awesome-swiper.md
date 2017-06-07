@@ -8,7 +8,7 @@ npm install vue-awesome-swiper --save
 
 2 vue框架使用该插件: 创建plugins/swiper.js
 
-```
+```js
 import Vue from 'vue'
 import VueAwesomeSwiper from 'vue-awesome-swiper/ssr'
 
@@ -16,7 +16,7 @@ Vue.use(VueAwesomeSwiper);
 ```
 
 3 nuxt服务端配置\(nuxt.config.js\)
-
+```js
     module.exports = {
         css: [
             `swiper/dist/css/swiper.css` // 引入swiper的css文件
@@ -30,10 +30,10 @@ Vue.use(VueAwesomeSwiper);
             { src: '~plugins/swiper.js', ssr: false } // 引入swiper的js文件
         ]
     }
-
+```
 4 页面使用swiper插件
 
-```
+```html
 <template>
   <div class="swiper" v-swiper:swiper="swiperOption">
       <!-- 内容区域 -->
@@ -75,8 +75,6 @@ Vue.use(VueAwesomeSwiper);
     }
   }
 </script>
-  
-
 ```
 
 5 注意事项
