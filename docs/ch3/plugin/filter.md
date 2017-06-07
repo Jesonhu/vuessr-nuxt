@@ -22,7 +22,7 @@ export const rmb = (val, str, hasSymbol) => {
 
 ```
 
-####### filter/index.js
+###### filter/index.js
 ```js
 import { rmb } from './currency-filter';
 
