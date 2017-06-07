@@ -29,4 +29,5 @@ axios.get('/api/common.json');
 ##### 问题1
 问题: filter文件夹现在只能放在
 components下,放其他会报错
+
 ![](../../../assets/filter-error.png) 
