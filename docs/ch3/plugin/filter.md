@@ -31,7 +31,7 @@ export default{
 }
 ```
 
-####### plugins/filter.js
+###### plugins/filter.js
 ```js
 import Vue from 'vue';
 import filters from '~components/filters';
