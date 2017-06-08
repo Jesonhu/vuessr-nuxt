@@ -13,7 +13,7 @@ module.exports = {
     ]
 }
 ```
-PS: 关于使用 sass(scss), less , stylues注意
+PS: 关于使用 sass(scss), less , stylus注意
 1 必须先安装编译依赖
 ```js
 npm install node-sass sass-loader --save-dev // 还要作为开发环境使用
