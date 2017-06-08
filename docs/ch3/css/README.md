@@ -28,7 +28,6 @@ npm install node-sass sass-loader --save-dev // 还要作为开发环境使用
 ```js
 module.exports = {
     link: [
-          { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'},
           { rel: 'stylesheet', type: 'text/css', href: '/css/reset.css' }
     }
 ```
