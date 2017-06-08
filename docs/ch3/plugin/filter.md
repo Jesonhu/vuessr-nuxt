@@ -54,3 +54,11 @@ plugins: [
 ```html
 {{item.price | rmb}}
 ```
+###### 这样使用命令行有警告,但是不影响功能
+![](../../../assets/filter_dependency.png)
+*****
+##### 问题1
+问题: filter文件夹现在只能放在
+components下,放其他会报错
+
+![](../../../assets/filter-error.png) 
