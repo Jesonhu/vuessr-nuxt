@@ -10,7 +10,7 @@
     * [vue-awesome-swiper](docs/ch3/plugin/vue-awesome-swiper.md)
     * [vue全局过滤器](docs/ch3/plugin/filter.md)
   * [Router](docs/ch3/router/README.md)
-  * [引入一个css文件](docs/ch3/css/README.md)
+  * [引入css文件](docs/ch3/css/README.md)
    
 * [ch4-vuex](docs/ch4/README.md)  
 
