@@ -67,13 +67,13 @@ export const actions = {
   可以用来配置全局服务初始化
   nuxtServerInit(store, {params}) {
     const initAppData = [
-      store.dispatch('loadCommonData') // <--
+      store.dispatch('loadCommonData') // <-- 结果要返回一个Promise
     ]
-    return Promise.all(initAppData)
+    return Promise.all(initAppData) // Promise.all(多个Promise组成的数组)
   },
 
   loadCommonData({ commit }) {
-    return axios.get('/api/common.json')
+    return axios.get('/api/common.json') // axios 结果为一个Promise对象
       .then((res) => {
         commit('header_footer/GET_DATA_sHotKey', { // <--
           searchHotKeyList: res.data.result.SearchWordsList
